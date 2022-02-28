@@ -5,8 +5,157 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daddle Space</title>
+        <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    
+    <main>
+        <section class="diagram">
+            <div class="diagram__background">
+                <h2>Diagrama de fases</h2>
+                <div class="diagram-box">
+
+                </div>
+                <div class="buttons-container">
+                    <button id="clair_button"><div>Limpiar</div>
+                        <svg id="Capa_1" width="28px" height="28px" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:#1787c9;}</style></defs><rect class="cls-1" x="0.46" y="2.2" width="23.09" height="1.47" rx="0.52"/><rect class="cls-1" x="10.08" width="3.84" height="1.47" rx="0.62"/><path class="cls-1" d="M14.18,24H5.27c-.62,0-1.15-.69-1.26-1.64L2.08,6c-.07-.6.23-1.15.62-1.15h9.82c.34,0,.62.44.62,1L14.8,23C14.8,23.56,14.52,24,14.18,24Z"/><path class="cls-1" d="M17,24h1.71c.62,0,1.15-.69,1.26-1.64L21.92,6c.07-.6-.23-1.15-.62-1.15H15.36c-.34,0-.62.44-.62,1L16.4,23C16.4,23.56,16.68,24,17,24Z"/></svg>
+                    </button>
+                    <button id="send_button"><div>Calculate</div>
+                        <svg version="1.1" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                        y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                   <style type="text/css">
+                       .st0{fill:none;}
+                       .st1{fill:#0288D1;}
+                       .st2{opacity:0.25;fill:#FFFFFF;enable-background:new    ;}
+                       .st3{opacity:0.8;fill:#FFFFFF;enable-background:new    ;}
+                   </style>
+                   <rect class="st0" width="24" height="24"/>
+                   <path id="_x35_85341931_x5F_shock_x5F_x5F_x5F_color_x5F_focus" class="st1" d="M24,22.4L22.4,24l-5.4-5.4c-1.8,1.4-4,2.3-6.5,2.3
+                       C4.7,20.9,0,16.2,0,10.4S4.7,0,10.4,0s10.4,4.7,10.4,10.4c0,2.5-0.9,4.7-2.3,6.5L24,22.4z"/>
+                   <path class="st2" d="M10.4,0C4.7,0,0,4.7,0,10.4s4.7,10.4,10.4,10.4s10.4-4.7,10.4-10.4S16.2,0,10.4,0z M10.4,18.5
+                       c-4.5,0-8.1-3.6-8.1-8.1S6,2.3,10.4,2.3s8.1,3.6,8.1,8.1S14.9,18.5,10.4,18.5z"/>
+                   <path class="st3" d="M10.4,2.3c-4.5,0-8.1,3.6-8.1,8.1s3.6,8.1,8.1,8.1s8.1-3.6,8.1-8.1S14.9,2.3,10.4,2.3z M15.4,14.5h-10v-3.1h10
+                       V14.5z M15.4,9.9h-10V6.8h10V9.9z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="propiedadesF">
+            <h2>Propiedades físicas</h2>
+            <div class="input-container">
+                <div>
+                    <label for="Ww">Ww (g)</label>
+                    <input type="number" min="0" id="Ww" name="Ww">
+                </div>
+
+                <div>
+                    <label for="Ws">Ws (g)</label>
+                    <input type="number" min="0" id="Ws" name="Ws">
+                </div>
+
+                <div>
+                    <label for="Wt">Wt (g)</label>
+                    <input type="number" min="0" id="Wt" name="Wt">
+                </div>
+
+                <div>
+                    <label for="Vs">Vs (cm³)</label>
+                    <input type="number" min="0" id="Vs" name="Vs">
+                </div>
+
+                <div>
+                    <label for="Va">Va (cm³)</label>
+                    <input type="number" min="0" id="Va" name="Va">
+                </div>
+
+                <div>
+                    <label for="Vw">Vw (cm³)</label>
+                    <input type="number" min="0" id="Vw" name="Vw">
+                </div>
+
+                <div>
+                    <label for="Vv">Vv (cm³)</label>
+                    <input type="number" min="0" id="Vv" name="Vv">
+                </div>
+
+                <div>
+                    <label for="Vt">Vt (cm³)</label>
+                    <input type="number" min="0" id="Vt" name="Vt">
+                </div>
+
+                <div>
+                    <label for="n">n (%)</label>
+                    <input type="number" min="0" id="n" name="n">
+                </div>
+
+                <div>
+                    <label for="e">e</label>
+                    <input type="number" min="0" id="e" name="e">
+                </div>
+
+                <div>
+                    <label for="emax">e max</label>
+                    <input type="number" min="0" id="emax" name="emax">
+                </div>
+
+                <div>
+                    <label for="emin">e min</label>
+                    <input type="number" min="0" id="emin" name="emin">
+                </div>
+
+                <div>
+                    <label for="Ga">Ga (%)</label>
+                    <input type="number" min="0" id="Ga" name="Ga">
+                </div>
+
+                <div>
+                    <label for="Gw">Gw (%)</label>
+                    <input type="number" min="0" id="Gw" name="Gw">
+                </div>
+
+                <div>
+                    <label for="Gt">Gt</label>
+                    <input type="number" min="0" id="Gt" name="Gt">
+                </div>
+
+                <div>
+                    <label for="Gs">Gs</label>
+                    <input type="number" min="0" id="Gs" name="Gs">
+                </div>
+
+                <div>
+                    <label for="Dr">Dr</label>
+                    <input type="number" min="0" id="Dr" name="Dr">
+                </div>
+
+                <div>
+                    <label for="w">w (%)</label>
+                    <input type="number" min="0" id="w" name="w">
+                </div>
+
+                <div>
+                    <label for="rho_m"> ρm (g/cm³)</label>
+                    <input type="number" min="0" id="rho_m" name="rho_m">
+                 </div>
+
+                <div>
+                    <label for="ys">γs (g/cm³)</label>
+                    <input type="number" min="0" id="ys" name="ys">
+                </div>
+
+                <div>
+                    <label for="rho_w">ρw</label>
+                    <input type="number" min="0" value="1.0" id="rho_w" name="rho_w">
+                </div>
+
+                <div>
+                    <label for="rho_d">ρd (g/cm³)</label>
+                    <input type="number" min="0" id="rho_d" name="rho_d">
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
 </body>
 </html>
